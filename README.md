@@ -31,4 +31,13 @@ Extract GPS coordinates and key metadata from images — then get a Google Maps 
 Clone the repository or just download the script and make it executable:
 
 ```bash
-chmod +x MetaPic
+git clone https://github.com/GoDY4u/MetaPic
+cd MetaPic
+chmod +x metapic.sh
+```
+---
+
+## Usage (Example)
+
+```bash
+./metapic.sh img.jpg
